@@ -1,0 +1,4 @@
+txtTemp.txt="75.6"
+txtHumid.txt="22.5%"
+txtSetTemp.txt="71"
+txtMode.txt="Cool"
