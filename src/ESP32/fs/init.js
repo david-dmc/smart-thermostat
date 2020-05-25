@@ -16,7 +16,7 @@ print('Topic: ', topic);
 
 let isConnected = false;
 
-let dht = DHT.create(33, DHT.DHT11);
+let dht = DHT.create(5, DHT.DHT11);
 
 function printToFixed(value, precision) {
   let roundedVal = Math.round(JSON.stringify(value) * JSON.stringify(precision)) / JSON.stringify(precision);
